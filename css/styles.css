@@ -11732,3 +11732,43 @@ html {
     left: -2vw;
   }
 }
+
+
+  /* footer */
+  .footer-links ul li a{
+    list-style: none;
+    text-decoration: none;
+    
+  }
+  @media(max-width:576px) {
+  .footer-links ul li, 
+    .footer-contact p
+    { 
+      justify-content: center;
+      text-align:center ;
+      
+    }
+    .social-links{ 
+      justify-content: center;
+      text-align:center ;
+      
+      
+    }
+    .footer-links p{ 
+      justify-content: center;
+      text-align:center ;      
+    }
+    .footer-links h4{
+      text-align: center;
+    }
+    .sitename{
+      text-align: center;
+      align-items: center;
+      margin-left: 35%;
+    text-transform: none;
+    }
+    .copyright{
+      text-align: center;
+    }
+  }
+
